@@ -1,4 +1,4 @@
-# Local Json Fatching
+# Local Json Fetching
 
 A new Flutter project.
 
