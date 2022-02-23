@@ -14,7 +14,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Fatching Data from Local JSON File'),
+        title: const Text('Fetching Data from Local JSON File'),
       ),
       body: FutureBuilder(
         future: DefaultAssetBundle.of(context).loadString('assets/data.json'),
